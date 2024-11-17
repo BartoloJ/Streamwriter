@@ -1,0 +1,14 @@
+C:\Users\Jon\Desktop\Streamwriter\StreamWriter\obj\Debug\net8.0\StreamWriter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jon\Desktop\Streamwriter\StreamWriter\obj\Debug\net8.0\StreamWriter.AssemblyInfoInputs.cache
+C:\Users\Jon\Desktop\Streamwriter\StreamWriter\obj\Debug\net8.0\StreamWriter.AssemblyInfo.cs
+C:\Users\Jon\Desktop\Streamwriter\StreamWriter\obj\Debug\net8.0\StreamWriter.csproj.CoreCompileInputs.cache
+C:\Users\Jon\Desktop\Streamwriter\StreamWriter\bin\Debug\net8.0\StreamWriter.exe
+C:\Users\Jon\Desktop\Streamwriter\StreamWriter\bin\Debug\net8.0\StreamWriter.deps.json
+C:\Users\Jon\Desktop\Streamwriter\StreamWriter\bin\Debug\net8.0\StreamWriter.runtimeconfig.json
+C:\Users\Jon\Desktop\Streamwriter\StreamWriter\bin\Debug\net8.0\StreamWriter.dll
+C:\Users\Jon\Desktop\Streamwriter\StreamWriter\bin\Debug\net8.0\StreamWriter.pdb
+C:\Users\Jon\Desktop\Streamwriter\StreamWriter\obj\Debug\net8.0\StreamWriter.dll
+C:\Users\Jon\Desktop\Streamwriter\StreamWriter\obj\Debug\net8.0\refint\StreamWriter.dll
+C:\Users\Jon\Desktop\Streamwriter\StreamWriter\obj\Debug\net8.0\StreamWriter.pdb
+C:\Users\Jon\Desktop\Streamwriter\StreamWriter\obj\Debug\net8.0\StreamWriter.genruntimeconfig.cache
+C:\Users\Jon\Desktop\Streamwriter\StreamWriter\obj\Debug\net8.0\ref\StreamWriter.dll
