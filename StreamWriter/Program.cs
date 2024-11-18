@@ -1,30 +1,34 @@
-﻿string inputFile = args[0];
-string outputFile = args[1];
-
-try
+﻿class Program
 {
-    using (StreamReader reader = new StreamReader(inputFile))
-    using (StreamWriter writer = new StreamWriter(outputFile))
+    static void Main(string[] args)
     {
-        int lineNumber = 1;
-        string line;
+        string inputFile = args[0];
+        string outputFile = args[1];
 
-        while ((line = reader.ReadLine()) != null)
+        try
         {
-            writer.WriteLine($"{lineNumber,4}: {line}");
-            lineNumber++;
+            InsertLineNumbers(inputFile, outputFile);
+            Console.WriteLine($"Line numbers inserted. Output saved to {outputFile}");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"An error occurred: {ex.Message}");
         }
     }
-}
-catch (FileNotFoundException)
-{
-    Console.WriteLine($"Error: Input file '{inputFile}' not found.");
-}
-catch (IOException e)
-{
-    Console.WriteLine($"Error: An I/O error occurred: {e.Message}");
-}
-catch (Exception e)
-{
-    Console.WriteLine($"Error: An unexpected error occurred: {e.Message}");
+
+    static void InsertLineNumbers(string inputFile, string outputFile)
+    {
+        using (StreamReader reader = new StreamReader(inputFile))
+        using (StreamWriter writer = new StreamWriter(outputFile))
+        {
+            int lineNumber = 1;
+            string line;
+
+            while ((line = reader.ReadLine()) != null)
+            {
+                writer.WriteLine($"{lineNumber,4}: {line}");
+                lineNumber++;
+            }
+        }
+    }
 }
